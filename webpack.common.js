@@ -4,8 +4,8 @@ const nodeModulesPath = path.resolve(__dirname, 'node_modules');
 
 module.exports = {
   entry: {
-    main: path.resolve(__dirname, 'src', 'index.js'),
-    vendor: path.resolve(__dirname, 'src', 'vendor.js'),
+    main: path.resolve(__dirname, 'src', 'js', 'index.js'),
+    vendor: path.resolve(__dirname, 'src', 'js', 'vendor.js')
   },
   module: {
     rules: [
